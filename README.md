@@ -1,16 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Worker Tracker – Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern workforce management dashboard that allows contractors or site managers to track worker attendance, assign work locations, and automatically calculate wages.
 
-## React Compiler
+This project focuses on real-world usage — not just UI — including analytics, export reports, and interactive management tools.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Add, edit and delete workers
+* Assign daily work sites
+* Automatic wage calculation
+* Worker statistics dashboard
+* Site-wise wage breakdown
+* Search workers instantly
+* Export Excel & CSV reports
+* Interactive charts
+* Fully responsive layout
+
+---
+
+### 🛠 Tech Stack
+
+* React.js (Vite)
+* TailwindCSS
+* Recharts (Analytics)
+* XLSX + FileSaver (Export Reports)
+* REST API Integration
+
+---
+
+### 📊 Dashboard Capabilities
+
+* Weekly attendance tracking
+* Total wage calculation
+* Site-wise payment breakdown
+* Worker performance analytics
+
+---
+
+### 🔗 API
+
+Backend runs separately.
+Update API base URL inside:
+
+```
+const apiBase = "YOUR API";
+```
+
+---
+
+### 📦 Installation
+
+```
+npm install
+npm run dev
+```
+
+---
+
+### 💡 Purpose
+
+Designed for real construction/site management workflow where supervisors need a fast way to calculate payments and maintain worker records.
+
+---
+
