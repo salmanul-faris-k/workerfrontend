@@ -5,15 +5,7 @@ A modern workforce tracking dashboard built using **React + Tailwind CSS** that 
 
 ---
 
-## 🎥 Live Demo
 
-
-https://github.com/user-attachments/assets/bb5ba1ae-b0ee-40b1-a9a3-932c148a5108
-
-
-
-
----
 
 ## 🚀 Features
 
@@ -107,7 +99,7 @@ const apiBase = "YOUR API";
 Example:
 
 ```
-const apiBase = "http://localhost:3000";
+const apiBase = "http://localhost:3000/api";
 ```
 
 ---
@@ -117,7 +109,15 @@ const apiBase = "http://localhost:3000";
 This project helps contractors or site supervisors manage workers attendance and payments digitally instead of using notebooks or spreadsheets.
 
 ---
+## 🎥 Live Demo
 
+
+https://github.com/user-attachments/assets/bb5ba1ae-b0ee-40b1-a9a3-932c148a5108
+
+
+
+
+---
 ## 👨‍💻 Author
 
 **Salmanul Faris K**
